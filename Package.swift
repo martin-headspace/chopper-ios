@@ -14,7 +14,7 @@ let package = Package(
             name: "chopper-ios",
             targets: ["chopper-ios"]),
         .library(
-            name: "App",
+            name: "Ginger",
             targets: ["App"]
         ),
         .library(
