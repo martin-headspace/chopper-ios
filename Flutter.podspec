@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name                  = 'Chopper'
-  s.version               = '1.0.0' # 3.3.8
+  s.name                  = 'Flutter'
+  s.version               = '3.3.800' # 3.3.8
   s.summary               = 'A UI toolkit for beautiful and fast apps.'
   s.description           = <<-DESC
 Flutter is Google's UI toolkit for building beautiful, fast apps for mobile, web, desktop, and embedded devices from a single codebase.
@@ -37,8 +37,8 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 LICENSE
   }
-  s.author                = { 'Martin Garcia' => 'martin.delangel@ginger.io' }
-  s.source                = { :http => 'https://github.com/martin-headspace/chopper-ios/archive/refs/heads/main.zip' }
+  s.author                = { 'Flutter Dev Team' => 'flutter-dev@googlegroups.com' }
+  s.source                = { :http => 'https://storage.googleapis.com/flutter_infra_release/flutter/857bd6b74c5eb56151bfafe91e7fa6a82b6fee25/ios/artifacts.zip' }
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '11.0'
   s.vendored_frameworks   = 'Flutter.xcframework'
